@@ -44,7 +44,8 @@ class ApiController {
   }
 
   protected function send() {
-    $this->response->send();
+//    $this->response->send();
+      $this->response->sendContent();
     die();
   }
 
